@@ -29,7 +29,7 @@ mongoose
 });
 app.use('/api/auth', authRouter);
 app.get('/', (req, res) => {
-    response.json({message: 'hello from server'});
+    res.json({message: 'hello from server'});
 });
 
 // Start the server
